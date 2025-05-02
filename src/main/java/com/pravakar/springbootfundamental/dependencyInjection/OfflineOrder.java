@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class OfflineOrder implements OrderInterface {
 
     public OfflineOrder() {
-        System.out.println("OfflineOrder initialized");
+//        System.out.println("OfflineOrder initialized");
     }
 }

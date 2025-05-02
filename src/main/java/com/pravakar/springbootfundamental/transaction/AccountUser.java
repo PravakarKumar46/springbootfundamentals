@@ -8,7 +8,7 @@ public class AccountUser {
 
     @Transactional
     public void saveUserDetails() {
-        System.out.println("UPDATE QUERY To update the user DB value");
+//        System.out.println("UPDATE QUERY To update the user DB value");
 //        throw new RuntimeException("Exception in saving user details");
     }
 }

@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class UserAop {
 
     public UserAop() {
-        System.out.println("UserAop initialized");
+//        System.out.println("UserAop initialized");
     }
 }

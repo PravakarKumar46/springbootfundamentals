@@ -21,7 +21,7 @@ public class SessionScopeBean {
 //    }
 
     public SessionScopeBean() {
-        System.out.println("SessionScopeBean initialized : session id:"+ this.hashCode());
+//        System.out.println("SessionScopeBean initialized : session id:"+ this.hashCode());
     }
 
     @GetMapping(value = "/fetchSessionUser")

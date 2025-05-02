@@ -9,7 +9,7 @@ public class PrototypeScopeBean {
 //    RequestScopeBean requestScopeBean;
 
     public PrototypeScopeBean() {
-        System.out.println("PrototypeScopeBean initialized");
+//        System.out.println("PrototypeScopeBean initialized");
     }
 
 //    @Autowired

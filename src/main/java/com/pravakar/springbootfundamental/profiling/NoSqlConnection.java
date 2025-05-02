@@ -16,6 +16,6 @@ public class NoSqlConnection {
 
     @PostConstruct
     public void init() {
-        System.out.println("NoSqlConnection initialized with username: " + username + " and password: " + password);
+//        System.out.println("NoSqlConnection initialized with username: " + username + " and password: " + password);
     }
 }

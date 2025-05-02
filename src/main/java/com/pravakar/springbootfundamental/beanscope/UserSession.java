@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserSession {
 
     public UserSession() {
-        System.out.println("UserSession initialized");
+//        System.out.println("UserSession initialized");
     }
 }

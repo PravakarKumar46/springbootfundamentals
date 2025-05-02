@@ -30,8 +30,8 @@ public class LogginAspect {
 
     @Around("employeeDetails()")
     public void beforeEmployeeDetails(ProceedingJoinPoint joinPoint) throws Throwable {
-        System.out.println("Before employee details");
+//        System.out.println("Before employee details");
         joinPoint.proceed();
-        System.out.println("After employee details");
+//        System.out.println("After employee details");
     }
 }

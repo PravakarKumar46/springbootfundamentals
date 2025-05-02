@@ -17,7 +17,7 @@ public class MySqlConnection {
 
     @PostConstruct
     public void init() {
-        System.out.println("MySqlConnection initialized with username: " + username + " and password: " + password);
+//        System.out.println("MySqlConnection initialized with username: " + username + " and password: " + password);
     }
 
 }

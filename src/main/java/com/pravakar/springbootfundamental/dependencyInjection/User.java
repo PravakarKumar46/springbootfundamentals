@@ -46,7 +46,7 @@ public class User {
     public OrderInterface orderInterface;
 
     public User() {
-        System.out.println("User initialized");
+//        System.out.println("User initialized");
     }
 
 //    public void processOrder() {

@@ -18,13 +18,13 @@ public class AppConfig {
 
     @Bean
     public User createUser(String userName, String email) {
-        System.out.println("Inside createUser method -> 1");
+//        System.out.println("Inside createUser method -> 1");
         return new User(userName(), email());
     }
 
     @Bean
     public User createUserTwo(String userName, String email) {
-        System.out.println("Inside createUser method -> 2");
+//        System.out.println("Inside createUser method -> 2");
         return new User(userName(), email());
     }
 

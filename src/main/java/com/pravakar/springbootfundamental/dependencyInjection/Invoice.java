@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class Invoice {
 
     public Invoice() {
-        System.out.println("Invoice initialized");
+//        System.out.println("Invoice initialized");
     }
 }

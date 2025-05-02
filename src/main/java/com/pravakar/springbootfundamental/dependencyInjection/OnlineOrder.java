@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class OnlineOrder implements OrderInterface {
 
     public OnlineOrder() {
-        System.out.println("OnlineOrder initialized");
+//        System.out.println("OnlineOrder initialized");
     }
 }

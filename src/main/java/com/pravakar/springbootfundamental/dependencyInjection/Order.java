@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
 public class Order {
 
     public Order() {
-        System.out.println("Order initialized");
+//        System.out.println("Order initialized");
     }
 
     public void process() {
-        System.out.println("Processing order");
+//        System.out.println("Processing order");
     }
 
 }

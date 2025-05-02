@@ -29,7 +29,7 @@ public class RequestScopeBean {
         return requestId;
     }
     public RequestScopeBean() {
-        System.out.println("RequestScopeBean -> class: " + this.hashCode());
+//        System.out.println("RequestScopeBean -> class: " + this.hashCode());
 //        prototypeScopeBean.firePrototypeMethod();
     }
 //
@@ -39,6 +39,6 @@ public class RequestScopeBean {
 
     @PostConstruct
     public void init() {
-        System.out.println("RequestScopeBean post construct");
+//        System.out.println("RequestScopeBean post construct");
     }
 }

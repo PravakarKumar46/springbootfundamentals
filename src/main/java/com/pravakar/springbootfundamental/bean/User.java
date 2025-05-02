@@ -48,7 +48,7 @@ public class User {
     String email;
 
     public User(String userName, String email) {
-        System.out.println("initializing user");
+//        System.out.println("initializing user");
         this.userName = userName;
         this.email = email;
     }
@@ -71,11 +71,11 @@ public class User {
 
     @PostConstruct
     public void initializedBean() {
-        System.out.println("Bean has been created and dependency injection has been done");
+//        System.out.println("Bean has been created and dependency injection has been done");
     }
 
     @PreDestroy
     public void destroyBean() {
-        System.out.println("Bean is going to be destroyed");
+//        System.out.println("Bean is going to be destroyed");
     }
 }
